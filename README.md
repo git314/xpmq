@@ -20,11 +20,6 @@ time series.
 ### Dependencies
 `Armadillo`
 
-### Docker Image
-
-Location: TBD
-
-Examples: TBD
 
 ### Installation
 
@@ -61,6 +56,8 @@ Usage:
 xpmq -p examples/data_m5t1/insample.csv -q examples/data_m5/qs.csv -f examples/data_m5t1/forecast.csv -o o_m5.csv -l 7 -n
 ```
 
+![xpmq-gif](imgs/xpmq.gif)
+
 # Features
 
 1. CLI first 
@@ -69,6 +66,12 @@ xpmq -p examples/data_m5t1/insample.csv -q examples/data_m5/qs.csv -f examples/d
 4. Tested on M5 data
 5. Computationally cheap
 6. Model independent
+
+### Docker Image
+
+Location: TBD
+
+Examples: TBD
 
 ### FAQ
 
