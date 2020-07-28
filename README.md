@@ -13,7 +13,7 @@ if new models must be made to ascertain uncertainty.
 quantiles with simple methods which are relatively cheap.
 
 The purpose of this library is not to 
-provide ground-breakingly accurate quantile forecasts, but to provide 
+provide ground-breakingly accurate quantile forecasts, but possibly 
 'good-enough' quantile forecasts which run fast for many thousands of 
 time series. 
 
