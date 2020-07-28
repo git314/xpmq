@@ -62,7 +62,7 @@ xpmq -p examples/data_m5t1/insample.csv -q examples/data_m5/qs.csv -f examples/d
 
 1. CLI first 
 2. Armadillo C++ with links to OpenBLAS
-3. Build for large data
+3. Built for large data
 4. Tested on M5 data
 5. Computationally cheap
 6. Model independent
