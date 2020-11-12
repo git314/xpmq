@@ -1,5 +1,5 @@
 xpmq: qnorm.o xpmq.o
-	g++ -o /usr/local/bin/xpmq xpmq.o qnorm.o -O3 -I ~/softwares/armadillo-9.900.1/include/ -DARMA_DONT_USE_WRAPPER -lopenblas -llapack -std=c++11 -fopenmp
+	g++ -o /usr/local/bin/xpmq xpmq.o qnorm.o -std=c++11 -O2 -larmadillo
 xpmq.o: qnorm.o
 	g++ -c -o xpmq.o xpmq.cpp 
 qnorm.o:
