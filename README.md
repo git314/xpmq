@@ -18,8 +18,7 @@ provide ground-breakingly accurate quantile forecasts, but possibly
 time series. 
 
 ### Dependencies
-`Armadillo`
-
+1. Install `Armadillo` version 10 or greater
 
 ### Installation
 
